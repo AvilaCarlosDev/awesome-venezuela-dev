@@ -79,7 +79,7 @@ Una lista curada de recursos, herramientas, comunidades y desarrolladores venezo
 
 | Nombre | Especialidad | GitHub | Twitter |
 |--------|--------------|--------|---------|
-| [Carlos Ávila](https://github.com/AvilaCarlosDev) | Full Stack + OpenClaw | [@AvilaCarlosDev](https://github.com/AvilaCarlosDev) | - |
+| [Carlos Avila](https://github.com/AvilaCarlosDev) | Developer + OpenClaw | [@AvilaCarlosDev](https://github.com/AvilaCarlosDev) | - |
 | _Tu nombre aquí_ | _Tu especialidad_ | _Tu GitHub_ | _Tu Twitter_ |
 
 ---
