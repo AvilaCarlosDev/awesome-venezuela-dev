@@ -17,9 +17,11 @@ jobs:
       - name: Revisar enlaces de los archivos markdown
         uses: lycheeverse/lychee-action@v2
         with:
+          # 429 y 503 son rate limiting del runner, no enlaces rotos
           args: >-
             --no-progress
-            --max-retries 2
-            --accept 200,206,429
+            --max-retries 3
+            --retry-wait-time 5
+            --accept 200,206,429,503
             "**/*.md"
           fail: true
