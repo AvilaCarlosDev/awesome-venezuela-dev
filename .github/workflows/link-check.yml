@@ -12,7 +12,7 @@ jobs:
   link-check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Revisar enlaces de los archivos markdown
         uses: lycheeverse/lychee-action@v2
@@ -21,6 +21,5 @@ jobs:
             --no-progress
             --max-retries 2
             --accept 200,206,429
-            --exclude-mail
             "**/*.md"
           fail: true
