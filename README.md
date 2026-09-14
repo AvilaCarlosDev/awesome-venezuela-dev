@@ -1,147 +1,95 @@
-# 🇻🇪 Awesome Venezuela Dev
+# Awesome Venezuela Dev 🇻🇪
 
-Una lista curada de recursos, herramientas, comunidades y desarrolladores venezolanos en el mundo de la tecnología.
+> Recursos para desarrolladores en Venezuela. Todo enlace de esta lista fue verificado a mano; si encuentras uno roto, [abre un issue](https://github.com/AvilaCarlosDev/awesome-venezuela-dev/issues) y se corrige.
 
----
+[![Verificación de enlaces](https://github.com/AvilaCarlosDev/awesome-venezuela-dev/actions/workflows/link-check.yml/badge.svg)](https://github.com/AvilaCarlosDev/awesome-venezuela-dev/actions/workflows/link-check.yml)
+[![Licencia: CC0](https://img.shields.io/badge/licencia-CC0--1.0-lightgrey.svg)](LICENSE)
 
-## 📋 Contenido
+## Contenido
 
-- [Comunidades](#-comunidades)
-- [Recursos de Aprendizaje](#-recursos-de-aprendizaje)
-- [Herramientas Locales](#-herramientas-locales)
-- [Eventos y Meetups](#-eventos-y-meetups)
-- [Desarrolladores Destacados](#-desarrolladores-destacados)
-- [Empresas Tech VE](#-empresas-tech-ve)
-- [Contenido en Español](#-contenido-en-español)
-
----
-
-## 🤝 Comunidades
-
-### Discord / Slack / Telegram
-- **[4Geeks Academy Venezuela](https://4geeksacademy.co/)** - Comunidad de coding bootcamp
-- **[Python Venezuela](https://t.me/pythonvenezuela)** - Grupo de Telegram
-- **[JavaScript Venezuela](https://t.me/javascriptvenezuela)** - Comunidad JS
-- **[DevOps Venezuela](https://t.me/devopsvenezuela)** - DevOps y SRE
-- **[React Venezuela](https://t.me/reactvenezuela)** - React y ecosistema
-
-### GitHub Organizations
-- **[Python Venezuela](https://github.com/pythonvenezuela)**
-- **[React Venezuela](https://github.com/reactvenezuela)**
-- **[Comunidad 4Geeks](https://github.com/4geeksacademy)**
+- [Comunidades](#comunidades)
+- [Trabajo remoto desde Venezuela](#trabajo-remoto-desde-venezuela)
+- [Aprender](#aprender)
+- [Developers venezolanos](#developers-venezolanos)
+- [Cómo contribuir](#cómo-contribuir)
 
 ---
 
-## 📚 Recursos de Aprendizaje
+## Comunidades
 
-### Cursos y Tutoriales
-- **[4Geeks Academy](https://4geeksacademy.co/)** - Bootcamps de desarrollo full stack
-- **[Platzi Venezuela](https://platzi.com/)** - Cursos de tecnología (comunidad activa)
-- **[FreeCodeCamp Español](https://www.freecodecamp.org/espanol/)** - Certificaciones gratuitas
+La comunidad tech venezolana vive principalmente en Telegram, y ya existe un directorio mantenido por la comunidad que es mejor que cualquier lista parcial que se pueda duplicar aquí:
 
-### Canales de YouTube
-- **[HolaMundo](https://www.youtube.com/c/HolaMundo)** - Nicolás Schurmann (Chile, pero contenido popular en VE)
-- **[Pildoras Informáticas](https://www.youtube.com/user/pildorasinformaticas)** - Tutoriales en español
-- **[Midudev](https://www.youtube.com/c/midudev)** - React, JavaScript, carrera dev (España)
+**👉 [OpenVE / comunidades-en-telegram](https://github.com/OpenVE/comunidades-en-telegram)** — más de 100 grupos y canales (Python, JavaScript, PHP, Linux, Rust, WordPress, SysAdmin, QA, Women in Tech, bolsas de empleo…), cada uno con sus administradores.
 
----
+Algunos de los más activos para quien está empezando:
 
-## 🛠️ Herramientas Locales
+| Comunidad | Tema |
+|---|---|
+| Programadores Venezuela | General, el grupo más grande |
+| Developers de Venezuela | General |
+| Developers Ve. en el Mundo | Venezolanos trabajando fuera |
+| Freelancers Venezuela | Trabajo independiente |
+| Ofertas de Empleo | Canal de vacantes |
+| Linux Venezuela / SysAdminVE | Infraestructura |
+| Women in Tech | Mujeres en tecnología |
 
-### Fintech / Pagos
-- **[Pago Móvil](https://www.bancodeltesoro.com/)** - Sistema de pagos nacional
-- **[Zelle](https://www.zellepay.com/)** - Popular en Venezuela para transacciones internacionales
-- **[Binance P2P](https://www.binance.com/es/p2p)** - Cripto trading (muy usado en VE)
+> Los enlaces de acceso de cada grupo están en el directorio de OpenVE, que se mantiene actualizado. Esta lista no los copia para no quedar desincronizada.
 
-### Infraestructura
-- **[CANTV](https://www.cantv.gob.ve/)** - Proveedor de internet estatal
-- **[Digitel](https://www.digitel.ve/)** - Telecomunicaciones
-- **[Movistar Venezuela](https://www.movistar.com.ve/)** - Telecomunicaciones
+### Organizaciones en GitHub
 
----
-
-## 🎉 Eventos y Meetups
-
-### Presenciales (Caracas, Valencia, Maracaibo)
-- **[Caracas Tech](https://www.meetup.com/es/caracas-tech/)** - Meetups mensuales
-- **[React Caracas](https://www.meetup.com/es/react-caracas/)** - Comunidad React
-- **[Python Caracas](https://www.meetup.com/es/python-caracas/)** - Python meetups
-
-### Virtuales
-- **[4Geeks Academy Events](https://4geeksacademy.co/events/)** - Webinars y workshops
-- **[Google Developer Groups Venezuela](https://developers.google.com/community/gdg)** - GDG Caracas
+- **[OpenVE](https://github.com/OpenVE)** — iniciativas de código abierto venezolanas
+- **[4Geeks Academy](https://github.com/4GeeksAcademy)** — bootcamp con presencia en Venezuela; sus ejercicios y contenido son públicos
 
 ---
 
-## 👨‍💻 Desarrolladores Destacados
+## Trabajo remoto desde Venezuela
 
-> ⚠️ **Nota:** Si eres desarrollador venezolano y quieres aparecer en esta lista, abre un PR.
+Esta es la parte donde un dev venezolano necesita información específica que las listas genéricas no dan.
 
-| Nombre | Especialidad | GitHub | Twitter |
-|--------|--------------|--------|---------|
-| [Carlos Avila](https://github.com/AvilaCarlosDev) | Developer + OpenClaw | [@AvilaCarlosDev](https://github.com/AvilaCarlosDev) | - |
-| _Tu nombre aquí_ | _Tu especialidad_ | _Tu GitHub_ | _Tu Twitter_ |
+- **[Radar Junior Remoto](https://github.com/AvilaCarlosDev/radar-junior-remoto)** — dónde buscar trabajo remoto junior en español, qué es un salario digno, e inglés certificado gratis.
 
----
+Puntos que conviene resolver antes de aplicar a algo remoto:
 
-## 🏢 Empresas Tech VE
-
-### Producto / SaaS
-- **[Tridom](https://tridom.com/)** - IoT y domótica
-- **[Yappy](https://yappy.io/)** - Plataforma de mensajería
-- **[Agora Payments](https://agorapayments.com/)** - Fintech
-
-### Outsourcing / Servicios
-- **[Globant Venezuela](https://www.globant.com/)** - Desarrollo de software
-- **[Toptal Venezuela](https://www.toptal.com/)** - Freelance network
-- **[Turing](https://www.turing.com/)** - Remote jobs
+1. **Cómo vas a cobrar.** Muchas plataformas no operan con Venezuela. Verifica el método de pago **antes** de invertir tiempo en el proceso.
+2. **Tu inglés escrito.** Para la mayoría de vacantes remotas pesa más que el hablado.
+3. **Huso horario.** Venezuela (UTC-4) coincide bien con EE. UU. Este — úsalo como argumento a tu favor.
+4. **Respaldo de energía e internet.** Menciónalo de forma proactiva: en una entrevista remota es una objeción real y anticiparla te suma.
 
 ---
 
-## 📺 Contenido en Español
+## Aprender
 
-### Blogs y Newsletters
-- **[Blog de 4Geeks Academy](https://4geeksacademy.co/blog/)** - Tutoriales y career advice
-- **[FreeCodeCamp Español](https://www.freecodecamp.org/espanol/news/)** - Noticias y tutoriales
-- **[Dev.to en Español](https://dev.to/t/es)** - Artículos de la comunidad
+Recursos gratuitos y en español:
 
-### Podcasts
-- **[HolaMundo Podcast](https://holamundo.dev/podcast/)** - Tecnología y carrera dev
-- **[Coding Blocks Español](https://www.codingblocks.fm/)** - Desarrollo de software
+- **[freeCodeCamp en Español](https://www.freecodecamp.org/espanol/)** — certificaciones gratuitas
+- **[Free APIs IA en Español](https://github.com/AvilaCarlosDev/free-apis-ia-espanol)** — APIs de LLM gratuitas, documentadas en español
+- **[4Geeks Academy — contenido](https://github.com/breatheco-de/content)** — el material del bootcamp, abierto
 
 ---
 
-## 🤝 Cómo Contribuir
+## Developers venezolanos
 
-1. Haz **fork** de este repositorio
-2. Crea una rama con tu contribución: `git checkout -b feature/tu-aporte`
-3. Commit tus cambios: `git commit -m 'feat: agrega X recurso'`
-4. Push a la rama: `git push origin feature/tu-aporte`
-5. Abre un **Pull Request**
+¿Eres dev venezolano o vives en Venezuela? Abre un PR y agégate.
 
-### Reglas de Contribución
-- ✅ Recursos deben estar activos y funcionar
-- ✅ Desarrolladores deben ser venezolanos o vivir en Venezuela
-- ✅ Contenido debe ser en español o creado por venezolanos
-- ✅ No spam ni autopromoción excesiva
+| Nombre | Área | GitHub |
+|---|---|---|
+| Carlos Avila | Web, IA aplicada, comunidad | [@AvilaCarlosDev](https://github.com/AvilaCarlosDev) |
 
 ---
 
-## 📊 Stats
+## Cómo contribuir
 
-[![Stargazers](https://img.shields.io/github/stars/AvilaCarlosDev/awesome-venezuela-dev?style=for-the-badge)](https://github.com/AvilaCarlosDev/awesome-venezuela-dev/stargazers)
-[![Forks](https://img.shields.io/github/forks/AvilaCarlosDev/awesome-venezuela-dev?style=for-the-badge)](https://github.com/AvilaCarlosDev/awesome-venezuela-dev/network/members)
-[![Issues](https://img.shields.io/github/issues/AvilaCarlosDev/awesome-venezuela-dev?style=for-the-badge)](https://github.com/AvilaCarlosDev/awesome-venezuela-dev/issues)
-[![License](https://img.shields.io/github/license/AvilaCarlosDev/awesome-venezuela-dev?style=for-the-badge)](https://github.com/AvilaCarlosDev/awesome-venezuela-dev/blob/main/LICENSE)
+1. Haz fork del repositorio
+2. Crea una rama: `git checkout -b agrega-recurso`
+3. Commit: `git commit -m "feat: agrega X"`
+4. Abre un Pull Request
 
----
+**Una sola regla firme:** el enlace tiene que funcionar y el recurso tiene que estar activo. Un directorio con enlaces muertos no le sirve a nadie — por eso hay un workflow que los revisa cada semana.
 
-## 📝 Licencia
-
-[CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) - Dominio público
+Ver [CONTRIBUTING.md](CONTRIBUTING.md) para más detalle.
 
 ---
 
-**Hecho con ❤️ por y para la comunidad de desarrolladores venezolanos**
+## Licencia
 
-🇻🇪 **¡Que viva el código venezolano!**
+[CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) — dominio público. Úsalo como quieras.
