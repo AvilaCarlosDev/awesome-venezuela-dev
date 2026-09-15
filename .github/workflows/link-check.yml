@@ -8,20 +8,36 @@ on:
       - "**.md"
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   link-check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
 
+      - name: Cache de lychee
+        uses: actions/cache@v4
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+
       - name: Revisar enlaces de los archivos markdown
         uses: lycheeverse/lychee-action@v2
+        env:
+          # Causa raiz de los fallos previos: github.com responde 429/503 a las
+          # peticiones anonimas que salen de los runners de Actions. Con el token
+          # lychee valida esos enlaces por la API y deja de dar falsos positivos.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          # 429 y 503 son rate limiting del runner, no enlaces rotos
           args: >-
             --no-progress
+            --cache
+            --max-cache-age 1d
             --max-retries 3
             --retry-wait-time 5
-            --accept 200,206,429,503
+            --accept 200,206,429
             "**/*.md"
           fail: true
