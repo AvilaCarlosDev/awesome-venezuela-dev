@@ -12,6 +12,8 @@
 - [Comunidades](#comunidades)
 - [Trabajo remoto desde Venezuela](#trabajo-remoto-desde-venezuela)
 - [Aprender](#aprender)
+- [Herramientas útiles](#herramientas-útiles)
+- [Otras listas](#otras-listas)
 - [Developers venezolanos](#developers-venezolanos)
 - [Estado de la lista](#estado-de-la-lista)
 - [Cómo contribuir](#cómo-contribuir)
@@ -42,7 +44,7 @@ Algunos de los más activos para quien está empezando:
 
 ### Organizaciones en GitHub
 
-- **[OpenVE](https://github.com/OpenVE)** — iniciativas de código abierto venezolanas
+- **[OpenVE](https://github.com/OpenVE)** — organización histórica de la comunidad de software libre venezolana; casi todos sus repositorios son de 2012 a 2020 y solo el directorio de Telegram tuvo cambios recientes (2024)
 - **[4Geeks Academy](https://github.com/4GeeksAcademy)** — bootcamp con presencia en Venezuela; sus ejercicios y contenido son públicos
 
 ---
@@ -70,6 +72,18 @@ Recursos gratuitos y en español:
 
 ---
 
+## Herramientas útiles
+
+- **[DolarAPI — Venezuela](https://dolarapi.com/docs/venezuela/)** — API gratuita y de código abierto (MIT, [código](https://github.com/enzonotario/dolarapi.com)) con las tasas de cambio de Venezuela, entre ellas la oficial del BCV. Ejemplo: [`ve.dolarapi.com/v1/dolares`](https://ve.dolarapi.com/v1/dolares). Comprobado el 2026-09-19: responde y se actualiza a diario. Es un servicio de terceros, sin garantía de disponibilidad: para algo crítico, aloja tu propia copia.
+
+---
+
+## Otras listas
+
+- **[kbtale/awesome-venezuela](https://github.com/kbtale/awesome-venezuela)** — proyectos de código abierto hechos por desarrolladores venezolanos (complementa esta lista, que reúne recursos y comunidades). Activa, CC0 y con versión en español.
+
+---
+
 ## Developers venezolanos
 
 ¿Eres dev venezolano o vives en Venezuela? Abre un PR y agégate.
@@ -87,6 +101,7 @@ Esta lista es pequeña a propósito y la mantiene una sola persona:
 - **Verificado automáticamente:** que los enlaces respondan, cada semana y en cada cambio de un `.md`.
 - **No verificado:** que los recursos sigan siendo útiles o de calidad; eso depende de la revisión de quien mantiene la lista. Los grupos de Telegram no se pueden comprobar automáticamente.
 - Solo hay un desarrollador en la tabla, el propio mantenedor: la lista crece si se contribuye.
+- **Última revisión manual de los recursos:** 2026-09-19. Los criterios de inclusión y los candidatos descartados (con el motivo) están en [docs/criterios.md](docs/criterios.md).
 
 ## Cómo contribuir
 

@@ -12,6 +12,8 @@
 - [Communities](#communities)
 - [Remote work from Venezuela](#remote-work-from-venezuela)
 - [Learn](#learn)
+- [Useful tools](#useful-tools)
+- [Other lists](#other-lists)
 - [Venezuelan developers](#venezuelan-developers)
 - [State of the list](#state-of-the-list)
 - [How to contribute](#how-to-contribute)
@@ -42,7 +44,7 @@ Some of the most active ones for beginners:
 
 ### Organizations on GitHub
 
-- **[OpenVE](https://github.com/OpenVE)** — Venezuelan open-source initiatives
+- **[OpenVE](https://github.com/OpenVE)** — historic organization of the Venezuelan free-software community; almost all its repositories are from 2012 to 2020 and only the Telegram directory had recent changes (2024)
 - **[4Geeks Academy](https://github.com/4GeeksAcademy)** — bootcamp with a presence in Venezuela; its exercises and content are public
 
 ---
@@ -70,6 +72,18 @@ Free resources in Spanish:
 
 ---
 
+## Useful tools
+
+- **[DolarAPI — Venezuela](https://dolarapi.com/docs/venezuela/)** — free, open-source API (MIT, [code](https://github.com/enzonotario/dolarapi.com)) with Venezuela's exchange rates, including the official BCV rate. Example: [`ve.dolarapi.com/v1/dolares`](https://ve.dolarapi.com/v1/dolares). Checked on 2026-09-19: it responds and updates daily. It is a third-party service with no availability guarantee: for anything critical, host your own copy.
+
+---
+
+## Other lists
+
+- **[kbtale/awesome-venezuela](https://github.com/kbtale/awesome-venezuela)** — open-source projects built by Venezuelan developers (it complements this list, which gathers resources and communities). Active, CC0, with a Spanish version.
+
+---
+
 ## Venezuelan developers
 
 Are you a Venezuelan developer or do you live in Venezuela? Open a PR and add yourself.
@@ -87,6 +101,7 @@ This list is small on purpose and maintained by one person:
 - **Checked automatically:** that links respond, every week and on every change to a `.md` file.
 - **Not checked:** that resources remain useful or good; that depends on the maintainer's review. Telegram groups cannot be checked automatically.
 - Only one developer is in the table, the maintainer: the list grows if people contribute.
+- **Last manual review of the resources:** 2026-09-19. The inclusion criteria and the rejected candidates (with the reason) are in [docs/criterios.md](docs/criterios.md).
 
 ## How to contribute
 

@@ -13,6 +13,8 @@ Gracias por querer sumar. La lista solo tiene valor si sus enlaces funcionan y s
 - Información útil para trabajar en remoto desde Venezuela.
 - Desarrolladores venezolanos (te puedes agregar tú mismo).
 
+Los criterios completos, y los candidatos ya evaluados y descartados con su motivo, están en [docs/criterios.md](docs/criterios.md). Consúltalo antes de proponer algo.
+
 ### Qué no se acepta
 
 - Spam o autopromoción excesiva.
@@ -50,6 +52,8 @@ Thanks for wanting to help. The list is only valuable if its links work and its 
 - Free learning resources, in Spanish.
 - Useful information for working remotely from Venezuela.
 - Venezuelan developers (you may add yourself).
+
+The full criteria, and the candidates already evaluated and rejected with the reason, are in [docs/criterios.md](docs/criterios.md). Check it before proposing something.
 
 ### What is not accepted
 
