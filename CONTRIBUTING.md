@@ -1,122 +1,79 @@
-# 🤝 Cómo Contribuir a Awesome Venezuela Dev
+# Contribuir / Contributing
 
-¡Gracias por querer contribuir! Esta guía te ayudará a hacer tu primera contribución.
+[Español](#español) · [English](#english)
 
----
+## Español
 
-## 📋 ¿Qué puedo agregar?
+Gracias por querer sumar. La lista solo tiene valor si sus enlaces funcionan y sus recursos siguen activos.
 
-### ✅ Aceptamos:
-- Comunidades de desarrolladores venezolanos
-- Recursos de aprendizaje en español
-- Herramientas usadas en Venezuela
-- Eventos y meetups (presenciales o virtuales)
-- Desarrolladores venezolanos destacados
-- Empresas tech con presencia en VE
-- Contenido creado por venezolanos
+### Qué se acepta
 
-### ❌ No aceptamos:
-- Spam o autopromoción excesiva
-- Recursos inactivos o abandonados
-- Contenido sin relación con tecnología
-- Recursos que no sean de/para venezolanos
+- Comunidades de desarrolladores venezolanos y de Venezuela.
+- Recursos de aprendizaje gratuitos y en español.
+- Información útil para trabajar en remoto desde Venezuela.
+- Desarrolladores venezolanos (te puedes agregar tú mismo).
 
----
+### Qué no se acepta
 
-## 🚀 Pasos para Contribuir
+- Spam o autopromoción excesiva.
+- Recursos inactivos o abandonados, o enlaces que no funcionan.
+- Contenido sin relación con tecnología o sin relación con Venezuela.
+- Enlaces de invitación a grupos privados: si un grupo debe enlazarse, que sea a su directorio público.
 
-### 1. Fork el repositorio
-```bash
-# Desde GitHub, haz click en "Fork"
-```
+### Cómo proponer un cambio
 
-### 2. Clona tu fork
-```bash
-git clone https://github.com/TU-USUARIO/awesome-venezuela-dev.git
-cd awesome-venezuela-dev
-```
+1. Haz fork y crea una rama: `git checkout -b agrega-recurso`.
+2. Edita `README.md` **y** `README.en.md`: las dos versiones deben enlazar exactamente lo mismo.
+3. Sigue el formato de cada sección:
+   - Recursos: `- **[Nombre](https://url)** — descripción corta`
+   - Desarrolladores: una fila `| Nombre | Área | [@usuario](https://github.com/usuario) |`
+4. Comprueba en local (opcional): `scripts/check-parity.sh README.md README.en.md` y `tests/check-parity.test.sh`.
+5. Abre un Pull Request y completa la lista de verificación.
 
-### 3. Crea una rama
-```bash
-git checkout -b feature/tu-aporte
-```
+### Qué revisa el CI
 
-### 4. Haz tus cambios
-- Edita el `README.md`
-- Agrega el recurso en la sección correspondiente
-- Sigue el formato existente
+- Que los enlaces respondan (lychee), cada semana y en cada cambio de un `.md`.
+- Que `README.md` y `README.en.md` tengan los mismos enlaces.
+- ShellCheck de los scripts, escaneo de secretos y ausencia de marcas de agua de IA.
 
-### 5. Commit tus cambios
-```bash
-git add .
-git commit -m "feat: agrega [nombre del recurso]"
-```
+La revisión final es humana y la hace una sola persona, sin plazo garantizado. El CI no puede juzgar si un recurso es bueno.
 
-### 6. Push a tu fork
-```bash
-git push origin feature/tu-aporte
-```
+Si usaste un asistente de IA, menciónalo en la descripción del PR; el CI rechaza marcas de agua de IA en archivos y mensajes de commit.
 
-### 7. Abre un Pull Request
-- Ve a GitHub
-- Click en "Pull Request"
-- Describe qué estás agregando
-- ¡Espera la revisión!
+## English
 
----
+Thanks for wanting to help. The list is only valuable if its links work and its resources are still active.
 
-## 📝 Formato para Agregar Recursos
+### What is accepted
 
-### Comunidades
-```markdown
-- **[Nombre](https://url.com)** - Descripción corta
-```
+- Communities of Venezuelan developers and developers in Venezuela.
+- Free learning resources, in Spanish.
+- Useful information for working remotely from Venezuela.
+- Venezuelan developers (you may add yourself).
 
-### Desarrolladores
-```markdown
-| Nombre | Especialidad | GitHub | Twitter |
-|--------|--------------|--------|---------|
-| Tu Nombre | Full Stack | [@tu](https://github.com/tu) | [@tu](https://twitter.com/tu) |
-```
+### What is not accepted
 
-### Empresas
-```markdown
-- **[Nombre](https://url.com)** - Descripción (Producto/Outsourcing)
-```
+- Spam or excessive self-promotion.
+- Inactive or abandoned resources, or links that do not work.
+- Content unrelated to technology or to Venezuela.
+- Invite links to private groups: if a group must be linked, link to its public directory.
 
----
+### How to propose a change
 
-## 🔍 Proceso de Revisión
+1. Fork and create a branch: `git checkout -b add-resource`.
+2. Edit `README.md` **and** `README.en.md`: both versions must link exactly the same things.
+3. Follow each section's format:
+   - Resources: `- **[Name](https://url)** — short description`
+   - Developers: a row `| Name | Area | [@user](https://github.com/user) |`
+4. Check locally (optional): `scripts/check-parity.sh README.md README.en.md` and `tests/check-parity.test.sh`.
+5. Open a Pull Request and complete the checklist.
 
-1. **Revisión automática** - GitHub Actions verifica formato
-2. **Revisión del maintainer** - Alguien del equipo revisa
-3. **Aprobación** - Si todo está bien, se mergea
-4. **Publicación** - Tu aporte aparece en la lista
+### What CI checks
 
-**Tiempo estimado:** 24-48 horas
+- That links respond (lychee), every week and on every change to a `.md` file.
+- That `README.md` and `README.en.md` have the same links.
+- ShellCheck for the scripts, secret scanning and absence of AI watermarks.
 
----
+The final review is human and done by one person, with no guaranteed turnaround. CI cannot judge whether a resource is good.
 
-## 💡 Tips para tu Contribución
-
-- ✅ Verifica que los enlaces funcionen
-- ✅ Usa descripciones cortas y claras
-- ✅ Mantén el orden alfabético cuando sea posible
-- ✅ Incluye solo recursos activos
-- ✅ Sé específico en los commits
-
----
-
-## ❓ ¿Dudas?
-
-- Abre un **issue** si tienes preguntas
-- Únete a las comunidades listadas para conocer otros devs
-- ¡No tengas miedo de contribuir! Todos empezamos en algún lado
-
----
-
-## 🎉 ¡Gracias por Contribuir!
-
-Tu aporte ayuda a crecer la comunidad de desarrolladores venezolanos 🇻🇪
-
-**Cada contribución cuenta** - ¡Gracias por ser parte! ❤️
+If you used an AI assistant, say so in the PR description; CI rejects AI watermarks in files and commit messages.

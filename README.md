@@ -1,6 +1,8 @@
 # Awesome Venezuela Dev 🇻🇪
 
-> Recursos para desarrolladores en Venezuela. Todo enlace de esta lista fue verificado a mano; si encuentras uno roto, [abre un issue](https://github.com/AvilaCarlosDev/awesome-venezuela-dev/issues) y se corrige.
+[English](README.en.md) · **Español**
+
+> Recursos para desarrolladores en Venezuela. Los enlaces se revisan automáticamente cada semana; si encuentras uno roto, [abre un issue](https://github.com/AvilaCarlosDev/awesome-venezuela-dev/issues) y se corrige.
 
 [![Verificación de enlaces](https://github.com/AvilaCarlosDev/awesome-venezuela-dev/actions/workflows/link-check.yml/badge.svg)](https://github.com/AvilaCarlosDev/awesome-venezuela-dev/actions/workflows/link-check.yml)
 [![Licencia: CC0](https://img.shields.io/badge/licencia-CC0--1.0-lightgrey.svg)](LICENSE)
@@ -11,15 +13,18 @@
 - [Trabajo remoto desde Venezuela](#trabajo-remoto-desde-venezuela)
 - [Aprender](#aprender)
 - [Developers venezolanos](#developers-venezolanos)
+- [Estado de la lista](#estado-de-la-lista)
 - [Cómo contribuir](#cómo-contribuir)
 
 ---
 
 ## Comunidades
 
-La comunidad tech venezolana vive principalmente en Telegram, y ya existe un directorio mantenido por la comunidad que es mejor que cualquier lista parcial que se pueda duplicar aquí:
+La comunidad tech venezolana vive principalmente en Telegram, y ya existe un directorio comunitario que es mejor que cualquier lista parcial que se pueda duplicar aquí:
 
 **👉 [OpenVE / comunidades-en-telegram](https://github.com/OpenVE/comunidades-en-telegram)** — más de 100 grupos y canales (Python, JavaScript, PHP, Linux, Rust, WordPress, SysAdmin, QA, Women in Tech, bolsas de empleo…), cada uno con sus administradores.
+
+> **Ojo:** el último cambio de ese directorio es de abril de 2024 y tiene issues abiertos sin atender, así que algunos grupos pueden haber cambiado de enlace o cerrado.
 
 Algunos de los más activos para quien está empezando:
 
@@ -33,7 +38,7 @@ Algunos de los más activos para quien está empezando:
 | Linux Venezuela / SysAdminVE | Infraestructura |
 | Women in Tech | Mujeres en tecnología |
 
-> Los enlaces de acceso de cada grupo están en el directorio de OpenVE, que se mantiene actualizado. Esta lista no los copia para no quedar desincronizada.
+> Los enlaces de acceso de cada grupo están en el directorio de OpenVE. Esta lista no los copia para no quedar desincronizada con él.
 
 ### Organizaciones en GitHub
 
@@ -45,8 +50,6 @@ Algunos de los más activos para quien está empezando:
 ## Trabajo remoto desde Venezuela
 
 Esta es la parte donde un dev venezolano necesita información específica que las listas genéricas no dan.
-
-- **[Radar Junior Remoto](https://github.com/AvilaCarlosDev/radar-junior-remoto)** — dónde buscar trabajo remoto junior en español, qué es un salario digno, e inglés certificado gratis.
 
 Puntos que conviene resolver antes de aplicar a algo remoto:
 
@@ -77,6 +80,14 @@ Recursos gratuitos y en español:
 
 ---
 
+## Estado de la lista
+
+Esta lista es pequeña a propósito y la mantiene una sola persona:
+
+- **Verificado automáticamente:** que los enlaces respondan, cada semana y en cada cambio de un `.md`.
+- **No verificado:** que los recursos sigan siendo útiles o de calidad; eso depende de la revisión de quien mantiene la lista. Los grupos de Telegram no se pueden comprobar automáticamente.
+- Solo hay un desarrollador en la tabla, el propio mantenedor: la lista crece si se contribuye.
+
 ## Cómo contribuir
 
 1. Haz fork del repositorio
@@ -89,6 +100,10 @@ Recursos gratuitos y en español:
 Ver [CONTRIBUTING.md](CONTRIBUTING.md) para más detalle.
 
 ---
+
+## Créditos
+
+Mantenida por [Carlos Avila](https://github.com/AvilaCarlosDev). Desarrollada con el apoyo de Claude (Anthropic) como asistente de revisión y de redacción; la selección de recursos y la revisión final son del autor.
 
 ## Licencia
 

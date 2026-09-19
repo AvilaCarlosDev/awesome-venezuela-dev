@@ -1,0 +1,17 @@
+name: Enlace roto o recurso inactivo / Broken link or inactive resource
+description: Un enlace no funciona o el recurso ya no está activo / A link does not work or the resource is no longer active
+labels: [enlace-roto]
+body:
+  - type: input
+    id: enlace
+    attributes:
+      label: Enlace afectado / Affected link
+    validations:
+      required: true
+  - type: textarea
+    id: detalle
+    attributes:
+      label: Qué ocurre / What happens
+      description: Error, redirección, sitio abandonado… / Error, redirect, abandoned site…
+    validations:
+      required: true

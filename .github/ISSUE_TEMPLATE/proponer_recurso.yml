@@ -1,0 +1,23 @@
+name: Proponer un recurso / Suggest a resource
+description: Sugiere un enlace para la lista (también puedes abrir un PR) / Suggest a link for the list (you can also open a PR)
+labels: [recurso]
+body:
+  - type: input
+    id: enlace
+    attributes:
+      label: Enlace / Link
+    validations:
+      required: true
+  - type: textarea
+    id: por-que
+    attributes:
+      label: Por qué debería estar en la lista / Why it belongs on the list
+    validations:
+      required: true
+  - type: checkboxes
+    id: reglas
+    attributes:
+      label: Reglas / Rules
+      options:
+        - label: El recurso está activo, es gratuito o de acceso público y tiene relación con Venezuela / The resource is active, free or publicly accessible and related to Venezuela
+          required: true
