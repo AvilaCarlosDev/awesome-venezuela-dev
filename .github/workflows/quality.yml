@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
   pull_request:
+  # Escaneo completo del historial a demanda. El primer push de un repositorio nuevo
+  # falla en gitleaks-action (intenta leer el padre del primer commit), así que se
+  # comprueba también con esta ejecución manual.
+  workflow_dispatch:
 
 permissions:
   contents: read
