@@ -75,6 +75,7 @@ Recursos gratuitos y en español:
 ## Herramientas útiles
 
 - **[DolarAPI — Venezuela](https://dolarapi.com/docs/venezuela/)** — API gratuita y de código abierto (MIT, [código](https://github.com/enzonotario/dolarapi.com)) con las tasas de cambio de Venezuela, entre ellas la oficial del BCV. Ejemplo: [`ve.dolarapi.com/v1/dolares`](https://ve.dolarapi.com/v1/dolares). Comprobado el 2026-09-19: responde y se actualiza a diario. Es un servicio de terceros, sin garantía de disponibilidad: para algo crítico, aloja tu propia copia.
+- **[Tasa BCV hoy](https://andresblitz.com/tasa-bcv/)** — tasa oficial del BCV (dólar y euro), precio del bitcoin en bolívares y calculadora de conversión. Usa los datos de DolarAPI y CoinGecko.
 
 ---
 
